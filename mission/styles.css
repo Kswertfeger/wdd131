@@ -1,0 +1,49 @@
+body h2 {
+    color: #006EB6;
+}
+
+body {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: 40px; 
+    padding: 20px;
+    line-height: 1.5;
+    
+}
+
+
+body p {
+    text-align: left;
+    padding-top: 20px;
+}
+
+.title {
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    border-bottom: 1px lightgray solid;
+}
+
+.title h2 {
+    font-size: 15px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    border: 2px solid lightgray;
+    padding: 20px 150px;
+}
+
+ol li {
+    text-align: left;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+
+img {
+    width: 150px;
+    height: auto;
+    margin-top: 10px;
+    padding-top: 5px;
+}
