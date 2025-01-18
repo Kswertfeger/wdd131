@@ -49,36 +49,36 @@ img {
 }
 
 .dark {
-    background-color: #333;  
+    background-color: #121212;  
     color: #ffffff;  
-}
+  
+    a {
+      color: #bb86fc;  
+    }
 
-.dark a {
-    color: #bb86fc;  
-}
+    button {
+      background-color: #333333;  
+      color: #ffffff;  
+      border: 1px solid #444444;  
+    }
 
-.dark button {
-    background-color: #333333;  
-    color: #ffffff;  
-    border: 1px solid #444444;  
-}
+    input, textarea {
+      background-color: #2c2c2c; 
+      color: #ffffff;  
+      border: 1px solid #444444;  
+    }
+  
+    header, footer {
+      color: #ffffff;  
+    }
 
-.dark input, .dark textarea {
-    background-color: #2c2c2c; 
-    color: #ffffff;  
-    border: 1px solid #444444;  
-}
+    .card, .container {
+      background-color: #2e2e2e;
+      color: #ffffff;
+    }
 
-.dark header, .dark footer {
-    color: #ffffff;  
-}
-
-.dark .card, .dark .container {
-    background-color: #2e2e2e;
-    color: #ffffff;
-}
-
-.dark h2 {
-    color: #A0D4ED;
-}
+    h2 {
+        color: #A0D4ED;
+    }
+  }
   
