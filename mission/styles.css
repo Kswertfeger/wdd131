@@ -47,3 +47,38 @@ img {
     margin-top: 10px;
     padding-top: 5px;
 }
+
+.dark {
+    background-color: #333;  
+    color: #ffffff;  
+}
+
+.dark a {
+    color: #bb86fc;  
+}
+
+.dark button {
+    background-color: #333333;  
+    color: #ffffff;  
+    border: 1px solid #444444;  
+}
+
+.darkinput, .dark textarea {
+    background-color: #2c2c2c; 
+    color: #ffffff;  
+    border: 1px solid #444444;  
+}
+
+.dark header, .dark footer {
+    color: #ffffff;  
+}
+
+.dark .card, .dark .container {
+    background-color: #2e2e2e;
+    color: #ffffff;
+}
+
+.dark h2 {
+    color: #A0D4ED;
+}
+  
