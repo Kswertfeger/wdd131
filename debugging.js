@@ -6,7 +6,7 @@ radius = 4;
 area = radius * radius * PI;
 
 function circleArea(radius, PI) {
-    const area = radius * PI
+    const area = radius * radius * PI
     return area
 }
 

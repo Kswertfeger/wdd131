@@ -3,11 +3,11 @@ let tasks = [];
 
 function renderTasks(tasks) {
   // get the list element from the DOM
-  const listElement = document.querySelector("#todoList");
-  listElement.innerHTML = "";
+  const the_list = document.querySelector("#todoList");
+  the_list.innerHTML = "";
   // loop through the tasks array. transform (map) each task object into the appropriate HTML to represent a to-do.
   const html = tasks.map(taskTemplate).join("");
-  listElement.innerHTML = html;
+  the_list.innerHTML = html;
 }
 
 function newTask() {
