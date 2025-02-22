@@ -1,0 +1,118 @@
+.card-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr auto;
+    justify-items: center;
+    align-items: center;
+    height: 100vh;
+    gap: 20px;
+    position: relative;
+    margin: 0;
+    padding: 10px;
+}
+.card {
+    width: 300px;
+    height: 180px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    text-align: center;
+    padding: 20px;
+}
+.card.front {
+    z-index: 2;
+    top: 0;
+    left: 0;
+    background-color: #cacfd3;
+    color: #000000;
+}
+.card.back {
+    z-index: 1;
+    top: 40px;
+    left: 100px;
+    background-color: #cacfd3;
+    color: #000000;
+}
+
+.grey-bar {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 40px; 
+    background-color: #4c4848;
+    position: absolute;
+    top: 20px;
+    left: 0;
+}
+
+.cvv-container {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    text-align: right;
+}
+
+.cvv-container input {
+    display: block;
+    width: 60px;
+}
+
+.total {
+    margin: 0;
+}
+
+.header-container { /* Added Flexbox container */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form-container label {
+    text-align: left;
+}
+
+.form-container .card-name {
+    text-align: left;
+}
+
+.form-container .card-name label {
+    display: block;
+}
+.form-container .card-name input {
+    width: 150px;
+}
+
+.form-container .expiration label {
+    display: block;
+}
+
+.form-container .expiration input {
+    width: 100px;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.button-container {
+    position: absolute; 
+    top: 270px;
+    right: 1100px;
+}
+
+.button-container button {
+    padding: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
