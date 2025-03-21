@@ -175,14 +175,15 @@ footer .attribution {
     }
 }
 
-@media (max-width: 600px) {
-    footer {
-      flex-direction: column;
-      text-align: center;
+@media (min-width: 600px) {
+    .recipe-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between; 
     }
 
-    footer .social {
-      margin-top: 20px;
-      order: -1;
+    .recipe {
+        box-sizing: border-box;
+        margin-bottom: 20px; 
     }
-  }
+}
